@@ -107,7 +107,7 @@ namespace GradeBook.GradeBooks
             }
         }
 
-        public virtual double GetGPA(char letterGrade, StudentType studentType, bool isWeighted)
+        public virtual double GetGPA(char letterGrade, StudentType studentType)
         {
             var gpa = 0;
             switch (letterGrade)
